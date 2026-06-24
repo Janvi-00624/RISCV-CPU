@@ -177,9 +177,6 @@ gtkwave sim\cpu_top.vcd
 
 **Why `$signed()` in SLT** — without it, Verilog treats both operands as unsigned. `-5 < 3` would evaluate incorrectly since -5 as unsigned is a large positive number. RISC-V's `slt` is a signed comparison, making this cast functionally critical.
 
-## Resume Bullet
-
-> Designed and verified a single-cycle RISC-V CPU (RV32I subset) in Verilog HDL — implemented ALU, 32×32-bit register file, immediate generator, instruction decoder, and full datapath; verified end-to-end execution of arithmetic, memory, branch, and jump instructions with 91 directed test cases using Icarus Verilog and GTKWave.
 
 ## Target Hardware
 
