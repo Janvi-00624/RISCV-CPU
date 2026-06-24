@@ -153,13 +153,13 @@ gtkwave sim\cpu_top.vcd
 
 | Module | Tests | Result |
 |---|---|---|
-| ALU | 15 | ✅ All passing |
-| Register file | 9 | ✅ All passing |
-| Immediate generator | 9 | ✅ All passing |
-| Control unit | 43 | ✅ All passing |
-| Memory | 7 | ✅ All passing |
-| Full CPU (end-to-end) | 8 | ✅ All passing |
-| **Total** | **91** | **✅ 91/91** |
+| ALU | 15 |  All passing |
+| Register file | 9 |  All passing |
+| Immediate generator | 9 |  All passing |
+| Control unit | 43 |  All passing |
+| Memory | 7 |  All passing |
+| Full CPU (end-to-end) | 8 |  All passing |
+| **Total** | **91** | ** 91/91** |
 
 ## Waveform
 
